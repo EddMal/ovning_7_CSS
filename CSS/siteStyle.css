@@ -1,0 +1,79 @@
+div{ background-color: rgb(88, 94, 91);}
+header
+{
+    background-color: rgb(88, 94, 91);
+    BORDER:"0";
+    text-align: "center";
+    
+    
+}    
+
+body
+{
+    background-color: rgb(88, 94, 91);
+}
+
+img{
+    BORDER:"0";
+    margin-left: auto;
+    margin-right: auto;
+    display : flex;
+}
+
+footer
+{
+    background-color: rgb(147, 238, 250);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a 
+{
+    font-family: verdana, verdana;
+    font-size: 10pt;
+    color: Black;
+    text-decoration: none;
+    font-weight: normal
+}
+
+a:hover 
+{
+    font-weight: normal
+}
+
+p 
+{
+    font-family: verdana, verdana;
+    font-size: 10pt; color: white
+}
+.menu
+{   
+    left: 0;
+    background-color: rgb(224, 245, 165);
+    height: 10%;
+    width: 10%;
+}
+
+
+.maintable
+{
+    display : flex;
+    text-align: "center";
+    margin-left: auto;
+    margin-right: auto;
+}
+.textcolumn
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sticky-div {
+     
+    position : sticky;
+    top: 0;
+    left :0;
+    height: 10;
+    width: 10;
+    text-align: center;
+    background-color:  #c9ddda;}
