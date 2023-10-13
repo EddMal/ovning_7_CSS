@@ -1,4 +1,4 @@
-div{ background-color: rgb(88, 94, 91);}
+/*div{ background-color: rgb(139, 146, 143);}*/
 header
 {
     background-color: rgb(88, 94, 91);
@@ -10,21 +10,25 @@ header
 
 body
 {
-    background-color: rgb(88, 94, 91);
+    background-color: rgb(88, 94, 94);
 }
 
 img{
     BORDER:"0";
-    margin-left: auto;
+    margin-left: 100px;
     margin-right: auto;
     display : flex;
 }
 
 footer
 {
-    background-color: rgb(147, 238, 250);
-    margin-left: auto;
+    background-color: rgb(210, 247, 80);
+    WIDTH : 789px;
+    text-align: center;
+    margin-left: 100px;
     margin-right: auto;
+    
+    
 }
 
 a 
@@ -47,20 +51,19 @@ p
     font-size: 10pt; color: white
 }
 .menu
-{   
-    left: 0;
-    background-color: rgb(224, 245, 165);
-    height: 10%;
-    width: 10%;
+{  
+
+    background-color: rgb(59, 68, 68);
+    margin-left: 113px;
 }
 
 
-.maintable
+.trailer
 {
-    display : flex;
-    text-align: "center";
-    margin-left: auto;
+    margin-left: 100px;
     margin-right: auto;
+    text-align: "center";
+
 }
 .textcolumn
 {
@@ -77,3 +80,9 @@ p
     width: 10;
     text-align: center;
     background-color:  #c9ddda;}
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
