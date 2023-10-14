@@ -1,37 +1,48 @@
-/*div{ background-color: rgb(139, 146, 143);}*/
-header
-{
-    background-color: rgb(88, 94, 91);
-    BORDER:"0";
-    text-align: "center";
-    
-    
-}    
-
 body
 {
-    background-color: rgb(88, 94, 94);
+  background-color: rgb(38,59,65);
 }
 
-img{
+header
+{
+    margin-top: 0;
+    background-color: rgb(38,59,65);
+    BORDER:"0";
+    text-align: "center";
+    position: fixed;
+       
+} 
+img
+{
     BORDER:"0";
     margin-left: 100px;
     margin-right: auto;
     display : flex;
+    background-color: rgb(38,59,65);
+}
+.menuarea {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 5px;
+  background-color: rgb(38,59,65);
+  overflow-x: hidden;
+  padding-top: 100px;
+}
+  
+ 
+
+ 
+  
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  a {font-size: 18px;}
 }
 
-footer
-{
-    background-color: rgb(210, 247, 80);
-    WIDTH : 789px;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: auto;
-    
-    
-}
 
-a 
+ a 
 {
     font-family: verdana, verdana;
     font-size: 10pt;
@@ -50,39 +61,32 @@ p
     font-family: verdana, verdana;
     font-size: 10pt; color: white
 }
-.menu
-{  
 
-    background-color: rgb(59, 68, 68);
-    margin-left: 113px;
-}
-
-
-.trailer
+  .trailer
 {
-    margin-left: 100px;
+    width: 789px;
+    position: fixed;
+    margin-top: 320px;
+    margin-left: 99px;
     margin-right: auto;
     text-align: "center";
+    background-color: rgb(224, 190, 175);
 
 }
-.textcolumn
+.menu
+{  
+    margin-top: 150px;
+    background-color: rgb(121, 233, 255);
+    margin-left: 5px;
+}
+
+  footer
 {
-    margin-left: auto;
+    background-color: rgb(28, 141, 166);
+    bottom: 0px;
+    WIDTH : 789px;
+    position: fixed;
+    text-align: center;
+    margin-left: 100px;
     margin-right: auto;
 }
-
-#sticky-div {
-     
-    position : sticky;
-    top: 0;
-    left :0;
-    height: 10;
-    width: 10;
-    text-align: center;
-    background-color:  #c9ddda;}
-
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
